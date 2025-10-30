@@ -1,5 +1,9 @@
 # omarchy-emberstone-theme
-A theme for Omarchy
+A theme for Omarchy:
+
+Inspired by the included Firewatch wallpaper
+
+Uses the vscode Understated Theme by hnrchrdl (which I may or may not change in the future)
 
 <img width="1920" height="1080" alt="screenshot-2025-10-28_21-36-43" src="https://github.com/user-attachments/assets/4c7ca006-dc54-4406-8c59-fce717ca110e" />
 
