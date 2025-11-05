@@ -30,10 +30,9 @@ return {
 		config = function(_, opts)
 			require("aether").setup(opts)
 			vim.cmd.colorscheme("aether")
-
-			-- Fix Git diff highlight contrast after colorscheme loads
 			vim.api.nvim_create_autocmd("ColorScheme", {
 				callback = function()
+					-- Git diff highlight contrast after colorscheme loads
 					vim.api.nvim_set_hl(0, "DiffAdd", { fg = "#28363f", bg = "#ffd47d" })
 					vim.api.nvim_set_hl(0, "DiffChange", { fg = "#28363f", bg = "#ffd47b" })
 					vim.api.nvim_set_hl(0, "DiffDelete", { fg = "#fae4ba", bg = "#846767" })
