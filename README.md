@@ -3,11 +3,11 @@ A theme for Omarchy:
 
 Inspired by the included Firewatch wallpaper
 
-Now using a brand new custom vscode theme (improvements are planned)
 
 <img width="1920" height="1080" alt="screenshot-2025-10-28_21-36-43" src="https://github.com/user-attachments/assets/4c7ca006-dc54-4406-8c59-fce717ca110e" />
 
-<img width="1920" height="1080" alt="screenshot-2025-10-28_21-45-01" src="https://github.com/user-attachments/assets/890e3463-0182-4be4-b126-ea3641f71367" />
+<img width="1928" height="1081" alt="screenshot-2025-11-05_00-17-40" src="https://github.com/user-attachments/assets/49d03cf4-f4dc-42ae-8629-b689cb4e323c" />
+
 
 ### Install:
 
