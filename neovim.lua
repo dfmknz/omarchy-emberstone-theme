@@ -20,7 +20,7 @@ return {
 				base08 = "#846767", -- Variables, errors, red
 				base09 = "#b09898", -- Integers, constants, orange
 				base0A = "#ffd47b", -- Classes, types, yellow
-				base0B = "#76847a", -- Strings, green
+				base0B = "#8fa594", -- Strings, green
 				base0C = "#91a7a7", -- Support, regex, cyan
 				base0D = "#ffe284", -- Functions, keywords, blue
 				base0E = "#c28b67", -- Keywords, storage, magenta
@@ -41,6 +41,12 @@ return {
 					vim.api.nvim_set_hl(0, "GitSignsChange", { fg = "#28363f", bg = "NONE" })
 					-- Make the sign column transparent so no solid yellow bar
 					vim.api.nvim_set_hl(0, "SignColumn", { bg = "NONE" })
+					-- Set visual selection background color here
+					vim.api.nvim_set_hl(0, "Visual", { bg = "#606E6A" })
+					--colors for LSP reference highlight (hover highlight)
+					vim.api.nvim_set_hl(0, "LspReferenceText", { bg = "#3C4952" })
+					vim.api.nvim_set_hl(0, "LspReferenceRead", { bg = "#3C4952" })
+					vim.api.nvim_set_hl(0, "LspReferenceWrite", { bg = "#3C4952" })
 				end,
 			})
 
